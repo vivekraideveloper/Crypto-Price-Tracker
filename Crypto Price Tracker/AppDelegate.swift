@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let cryptoTableVC = CryptoTableVC()
+        let navController = UINavigationController(rootViewController: cryptoTableVC)
+        window?.rootViewController = navController
+        navController.navigationBar.backgroundColor = UIColor(red: 218, green: 165, blue: 32, alpha: 1)
+        window?.makeKeyAndVisible()
+
         return true
     }
 

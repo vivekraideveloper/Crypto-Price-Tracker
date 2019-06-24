@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510005C5CD9536ED8CBF4418 /* Pods_Crypto_Price_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99376A1722D985E499CB8FE1 /* Pods_Crypto_Price_Tracker.framework */; };
 		8003B2EA22BF4D3800231064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B2E922BF4D3800231064 /* AppDelegate.swift */; };
-		8003B2EC22BF4D3800231064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B2EB22BF4D3800231064 /* ViewController.swift */; };
 		8003B2EF22BF4D3800231064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003B2ED22BF4D3800231064 /* Main.storyboard */; };
 		8003B2F122BF4D3B00231064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8003B2F022BF4D3B00231064 /* Assets.xcassets */; };
 		8003B2F422BF4D3B00231064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003B2F222BF4D3B00231064 /* LaunchScreen.storyboard */; };
+		8003B30022BF4DF400231064 /* CryptoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B2FF22BF4DF400231064 /* CryptoTableVC.swift */; };
+		8003B30222BF4E4000231064 /* CoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30122BF4E4000231064 /* CoinVC.swift */; };
+		8003B30422BF4F1000231064 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30322BF4F1000231064 /* CoinData.swift */; };
+		8003B30622BF4F2700231064 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30522BF4F2700231064 /* Coin.swift */; };
+		8003B30822BF4F5000231064 /* CoinDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30722BF4F5000231064 /* CoinDataProtocol.swift */; };
+		8003B30A22BF4F6A00231064 /* HistoricalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30922BF4F6A00231064 /* HistoricalData.swift */; };
+		8003B30C22BF4F8400231064 /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003B30B22BF4F8400231064 /* Prices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08641FC32EDD57F5DA0FFA37 /* Pods-Crypto Price Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Price Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Price Tracker/Pods-Crypto Price Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		60BAE590D95607C05BD2D913 /* Pods-Crypto Price Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Price Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Price Tracker/Pods-Crypto Price Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		8003B2E622BF4D3700231064 /* Crypto Price Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Price Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8003B2E922BF4D3800231064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8003B2EB22BF4D3800231064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8003B2EE22BF4D3800231064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8003B2F022BF4D3B00231064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8003B2F322BF4D3B00231064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8003B2F522BF4D3B00231064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8003B2FF22BF4DF400231064 /* CryptoTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableVC.swift; sourceTree = "<group>"; };
+		8003B30122BF4E4000231064 /* CoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinVC.swift; sourceTree = "<group>"; };
+		8003B30322BF4F1000231064 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		8003B30522BF4F2700231064 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		8003B30722BF4F5000231064 /* CoinDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataProtocol.swift; sourceTree = "<group>"; };
+		8003B30922BF4F6A00231064 /* HistoricalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalData.swift; sourceTree = "<group>"; };
+		8003B30B22BF4F8400231064 /* Prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		99376A1722D985E499CB8FE1 /* Pods_Crypto_Price_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Price_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510005C5CD9536ED8CBF4418 /* Pods_Crypto_Price_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DA63F4FB15C1EA9DFB9D9C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08641FC32EDD57F5DA0FFA37 /* Pods-Crypto Price Tracker.debug.xcconfig */,
+				60BAE590D95607C05BD2D913 /* Pods-Crypto Price Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8003B2DD22BF4D3700231064 = {
 			isa = PBXGroup;
 			children = (
 				8003B2E822BF4D3700231064 /* Crypto Price Tracker */,
 				8003B2E722BF4D3700231064 /* Products */,
+				4DA63F4FB15C1EA9DFB9D9C2 /* Pods */,
+				D6EDD2702EF9584049A1F49D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,60 @@
 		8003B2E822BF4D3700231064 /* Crypto Price Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				8003B2FE22BF4DDD00231064 /* Utils */,
+				8003B2FD22BF4DD700231064 /* Model */,
+				8003B2FC22BF4DD000231064 /* VIew */,
+				8003B2FB22BF4DC100231064 /* Controller */,
 				8003B2E922BF4D3800231064 /* AppDelegate.swift */,
-				8003B2EB22BF4D3800231064 /* ViewController.swift */,
 				8003B2ED22BF4D3800231064 /* Main.storyboard */,
 				8003B2F022BF4D3B00231064 /* Assets.xcassets */,
 				8003B2F222BF4D3B00231064 /* LaunchScreen.storyboard */,
 				8003B2F522BF4D3B00231064 /* Info.plist */,
 			);
 			path = "Crypto Price Tracker";
+			sourceTree = "<group>";
+		};
+		8003B2FB22BF4DC100231064 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8003B2FF22BF4DF400231064 /* CryptoTableVC.swift */,
+				8003B30122BF4E4000231064 /* CoinVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8003B2FC22BF4DD000231064 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		8003B2FD22BF4DD700231064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8003B30322BF4F1000231064 /* CoinData.swift */,
+				8003B30522BF4F2700231064 /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8003B2FE22BF4DDD00231064 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8003B30722BF4F5000231064 /* CoinDataProtocol.swift */,
+				8003B30922BF4F6A00231064 /* HistoricalData.swift */,
+				8003B30B22BF4F8400231064 /* Prices.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D6EDD2702EF9584049A1F49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99376A1722D985E499CB8FE1 /* Pods_Crypto_Price_Tracker.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8003B2F822BF4D3B00231064 /* Build configuration list for PBXNativeTarget "Crypto Price Tracker" */;
 			buildPhases = (
+				CD5035AE1F863E2C9138E96B /* [CP] Check Pods Manifest.lock */,
 				8003B2E222BF4D3700231064 /* Sources */,
 				8003B2E322BF4D3700231064 /* Frameworks */,
 				8003B2E422BF4D3700231064 /* Resources */,
+				B776777DCB7BB48F30BA12F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +206,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B776777DCB7BB48F30BA12F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Price Tracker/Pods-Crypto Price Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Price Tracker/Pods-Crypto Price Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5035AE1F863E2C9138E96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Price Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8003B2E222BF4D3700231064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8003B2EC22BF4D3800231064 /* ViewController.swift in Sources */,
+				8003B30822BF4F5000231064 /* CoinDataProtocol.swift in Sources */,
+				8003B30622BF4F2700231064 /* Coin.swift in Sources */,
+				8003B30C22BF4F8400231064 /* Prices.swift in Sources */,
+				8003B30A22BF4F6A00231064 /* HistoricalData.swift in Sources */,
+				8003B30222BF4E4000231064 /* CoinVC.swift in Sources */,
+				8003B30422BF4F1000231064 /* CoinData.swift in Sources */,
 				8003B2EA22BF4D3800231064 /* AppDelegate.swift in Sources */,
+				8003B30022BF4DF400231064 /* CryptoTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +403,7 @@
 		};
 		8003B2F922BF4D3B00231064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08641FC32EDD57F5DA0FFA37 /* Pods-Crypto Price Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +422,7 @@
 		};
 		8003B2FA22BF4D3B00231064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BAE590D95607C05BD2D913 /* Pods-Crypto Price Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
