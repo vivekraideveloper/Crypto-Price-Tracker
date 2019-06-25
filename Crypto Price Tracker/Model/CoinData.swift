@@ -15,7 +15,7 @@ class CoinData {
     let prices = Prices()
     
     private init() {
-        let symbols = ["BTC", "ETH", "LTC", "XRP", "BCH", "EOS", "NEO", "TRX", "ZEC", "ETC", "BTG", "ADA", "BSV", "ONT", "QTUM", "XLM", "USDT", "DASH", "TUSD", "PAX", "HSR", "OMG", "XMR", "LINK", "HT", "DOGE", "AE", "BTT", "MIOTA", "ATOM", "BAT", "GXS", "MONA", "KCS", "XEM", "ZIL", "VET", "USDC", "BTM", "RVN", "WAVES", "BTS", "BNB", "SNT", "IOST", "ZRX", "ITC", "ICX", "CTXC", "NULS", "BIX", "ELF", "FUEL", "FUN", "GAME", "DROP", "BURST", "GRIN", "NAS", "MANA", "AION"]
+        let symbols = ["BTC", "ETH", "LTC", "XRP", "BCH", "EOS", "NEO", "TRX", "ZEC", "ETC", "BTG", "ADA", "BSV", "ONT", "QTUM", "XLM", "USDT", "DASH", "TUSD", "PAX", "HSR", "OMG", "XMR", "LINK", "HT", "DOGE", "AE", "BTT", "MIOTA", "ATOM", "BAT", "GXS", "MONA", "KCS", "XEM", "ZIL", "VET", "USDC", "BTM", "RVN", "WAVES", "BTS", "BNB", "SNT", "IOST", "ZRX", "ITC", "ICX", "CTXC", "NULS", "BIX", "ELF", "FUEL", "FUN", "GAME", "DROP", "BURST", "GRIN", "NAS", "MANA", "AION", "ABT", "ACT", "ACTN", "ADX", "AEON", "AGI", "AE", "AGRS", "SAFE", "SALT", "SAN", "TEN", "PURA", "RDD", "NEBL", "KNC", "KIN", "GUSD", "GMR", "EDG", "CRW", "DAI", "EVX", "CRPT", "MED", "PINK", "QASH", "RISE", "UTK", "KMD", "ELLA", "QSP", "PRL", "ZCL", "VERI", "GAS", "RIC", "POWR", "APPC", "MEETONE", "POLIS", "QRL", "ELEC", "INK", "OOT", "SLS", "WICC", "WINGS", "XPM", "POA", "GIN", "ENG", "HUC", "LUN", "HUSH", "ENJ", "OST", "ELIX", "INS", "PLR", "SMART", "ELA", "WAN"]
         
         for symbol in symbols {
             let coin = Coin(symbol: symbol)
